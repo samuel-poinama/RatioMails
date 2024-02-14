@@ -33,9 +33,19 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### required functionalities:
 - [ ] OAuth via Microsoft & Google
-- [ ] write a new mail (recipient (optional: cc & cci), object, content, send button) 
-- [ ] show all current mails (with details: object + date + sender)
-- [ ] look for a mail (via keyword, date, keyword+date)
+- [ ] write a new mail :
+  - recipient (optional: cc & cci)
+  - object
+  - content
+  - send button
+- [ ] show all current mails with details:
+  - object
+  - date
+  - sender
+- [ ] look for a mail:
+  - via keyword
+  - via date
+  - via keyword + date
 
 ## Authors:
 - POINAMA Samuel
