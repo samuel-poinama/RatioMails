@@ -25,3 +25,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Authors:
 - POINAMA Samuel
+- Poissonneau Alexandre AKA : "TheSpaceMan88 / Spaece" on GitHub
