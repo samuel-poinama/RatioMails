@@ -27,6 +27,10 @@ const routes = [
   },
   {
     path: '/mail',
+    redirect: '/mail/1'
+  },
+  {
+    path: '/mail/:id',
     name: 'mail',
     component: () => import('../views/MailView.vue')
   }
