@@ -25,14 +25,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## TODO :
 ### required routes:
-- [ ] home : / → redirects to /login if not currently logged in
-- [ ] login: /login
-- [ ] mail: /mail/{id}
-- [ ] logout: /logout
-- [ ] about: /about
+- [x] home : / → redirects to /login if not currently logged in
+- [x] login: /login
+- [x] mail: /mail/{id}
+- [x] logout: /logout
+- [x] about: /about
 
 ### required functionalities:
-- [ ] OAuth via Microsoft & Google
+- [x] OAuth via Microsoft
+- [ ] Oauth via Google
 - [ ] write a new mail :
   - recipient (optional: cc & cci)
   - object
