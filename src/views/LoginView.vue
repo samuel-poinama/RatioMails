@@ -50,8 +50,10 @@
                 const promise = new Promise(function(resolve){
                     resolve(signInAndGetUser())
                 })
-                promise.then(user => 
-                this.userName = user.account.name
+                promise.then((user) => {
+                this.$store.commit('signInAndGetUser', { name: user.displayName, email: user.mail })
+                console.log('User signed in', user)
+                }
                 ).catch(err => console.log('An error was raised', err))
             }
         }
