@@ -53,3 +53,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - POISSONNEAU Alexandre AKA : "TheSpaceMan88 / Spaece" on GitHub
 - DRAGAN Constantin
 - OUAMARA Sarah
+
+## Repository
+https://github.com/samuel-poinama/RatioMails
