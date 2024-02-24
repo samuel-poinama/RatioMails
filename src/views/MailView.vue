@@ -1,18 +1,17 @@
 <template>
-    <div>
-        <h1>Mail</h1>
-        <p>Welcome to the mail page</p>
+    <div class="w-screen h-screen overflow-hidden text-stone-600 bg-gray-100">
+        <MailInbox/>
+        <NewMailWidget/>
     </div>
-    <NewMailWidget/>
 </template>
 
 <script>
-import NewMailWidget from '@/components/NewMailWidget.vue'
+import MailInbox from '@/components/MailInbox.vue'
 
 export default {
     name: 'mailView',
     components: {
-        NewMailWidget
+        MailInbox
     }
 }
 </script>
